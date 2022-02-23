@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------GENERALES -------------------------*/
+
+body {
+    background-color:#fff;
+}
+
+.menu-bar {
+    background-image: linear-gradient(-90 deg, #d383d312, #a83279);
+}
+
+
+/* --------------------- INDEX -------------- */    
+
+.navbar {
+    padding: 0%;
+    height: 100%;
+  
+}
+
+
+
+/*.container-fluid a {
+    color: #ffff !important;
+    font-size: 25px;
+}*/
+
+.paquetes {
+    background-color: #f6f6f6;
+}
+
+.paquetes   h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* --------------------- CONTACTO -------------- */
+
+.contacto-tittle {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+
+
+/*------------------------DESTINATION----------------------*/
+
+.destinos-tittle {
+    text-align: center;
+}
+
+.card-group {
+    background-color: #f6f6f6;
+}
+
+.card-group .card {
+    margin: 10px;
+}
+
+.card {
+    transition: 2s all;
+}
+
+
+
+
+
+/*----------------------ABOUT ----------------------*/
+
+
+.about-us {
+    background-color: #f6f6f6;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.card-about {
+    background-color: #f6f6f6;
+    margin-top: 20px;
+}
+
+
+/*-------------------------FAQ--------------------------*/
+
+.faq-tittle {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.faq-container {
+    background-color: #f6f6f6;
+}
+
+
+
+
+
+
