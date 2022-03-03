@@ -1,4 +1,8 @@
 @import "_colors";
+@import "contact";
+@import "destination";
+@import "about";
+@import "faq";
 
 * {
     margin: 0;
@@ -6,5 +10,26 @@
 }
 
 body {
-    background-color: red;
+    background-color: $blancoFondo;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.paquetes {
+    background-color: $blancoEtiquetas;
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .card {
+        &:hover {
+            font-weight: bold;
+        }
+    }
+    .card-title {
+        font-size: 30px;
+    }
 }

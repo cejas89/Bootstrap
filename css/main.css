@@ -1,6 +1,57 @@
+.contacto-tittle {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px; }
+
+.form-contact {
+  background-color: #f6f6f6; }
+
+.destinos-tittle {
+  text-align: center; }
+
+.card-group {
+  background-color: #f6f6f6; }
+
+.card-group .card {
+  margin: 10px; }
+
+.card {
+  transition: 2s all; }
+
+.about-aside h1 {
+  text-align: center;
+  color: #00008B; }
+
+.about-us {
+  background-color: #f6f6f6;
+  line-height: 30px;
+  font-size: 20px; }
+
+.card-about {
+  background-color: #f6f6f6;
+  margin-top: 20px; }
+
+.faq-tittle {
+  text-align: center;
+  margin: 10px; }
+
+.faq-container {
+  background-color: #f6f6f6; }
+
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  background-color: red; }
+  background-color: #fff;
+  font-family: 'Courier New', Courier, monospace; }
+
+.paquetes {
+  background-color: #f6f6f6; }
+  .paquetes h1 {
+    text-align: center;
+    margin-top: 20px; }
+  .paquetes .card:hover {
+    font-weight: bold; }
+  .paquetes .card-title {
+    font-size: 30px; }
