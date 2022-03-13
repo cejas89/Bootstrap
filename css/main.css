@@ -46,12 +46,42 @@ body {
   background-color: #fff;
   font-family: 'Courier New', Courier, monospace; }
 
-.paquetes {
+header .navs :hover, header li :hover {
+  font-size: 20px;
+  text-decoration: underline; }
+
+header .nav-destination {
+  color: tomato !important; }
+
+header .nav-about {
+  color: orange !important; }
+
+header .nav-faqs {
+  color: red !important; }
+
+header .nav-contact {
+  color: #a80505 !important; }
+
+main .h5 {
+  font-size: 35px;
+  text-decoration: underline;
+  font-weight: 600; }
+
+main .paquetes {
   background-color: #f6f6f6; }
-  .paquetes h1 {
+  main .paquetes h1 {
     text-align: center;
     margin-top: 20px; }
-  .paquetes .card:hover {
+  main .paquetes .card:hover {
     font-weight: bold; }
-  .paquetes .card-title {
+  main .paquetes .card-title {
     font-size: 30px; }
+
+.footer .a-footer, .footer li a {
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 600;
+  color: #00008B !important; }
+
+.footer li :hover {
+  font-size: 20px; }
