@@ -10,11 +10,33 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background-color: $blancoFondo;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $font-2;
+
+    h1 {
+        font-size: $h1-size;
+    }
+
+    h2 {
+        font-size: $h2-size;
+    }
+    
+    h3 {
+        font-size: $h3-size;
+    }
+
+    p {
+        font-size: $p-size;
+    }
+
+    a {
+        font-size: $a-size;
+    }
+
 }
 
 

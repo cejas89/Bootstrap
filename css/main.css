@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
 .contacto-tittle {
   text-align: center;
   font-size: 40px;
@@ -51,9 +57,13 @@
   z-index: 1;
   margin-right: 5px; }
 
+header .nav-container {
+  background-color: #00008B !important; }
+
 header .navs :hover, header li :hover {
   font-size: 20px;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-style: "Shadows Into Light", cursive; }
 
 header .nav-destination {
   color: tomato !important; }
@@ -85,7 +95,17 @@ header .nav-contact {
 
 body {
   background-color: #fff;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: "Roboto", sans-serif; }
+  body h1 {
+    font-size: 60px; }
+  body h2 {
+    font-size: 50px; }
+  body h3 {
+    font-size: 40px; }
+  body p {
+    font-size: 20px; }
+  body a {
+    font-size: 40px; }
 
 main .h5 {
   font-size: 35px;
