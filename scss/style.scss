@@ -4,6 +4,8 @@
 @import "about";
 @import "faq";
 @import "_aside";
+@import "_nav";
+@import "_footer";
 
 * {
     margin: 0;
@@ -15,36 +17,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-//header
-
-header {
-
-    .navs {
-        & :hover {
-        font-size: 20px;
-        text-decoration: underline;
-        }
-    }
-
-    li {
-        @extend .navs
-    }
-    
-    
-     $navs: ( // aqui creo el maps
-        destination: tomato,
-        about: orange,
-        faqs: red,
-        contact: rgb(168, 5, 5),
-    );
-    
-    @each $nav, $size in $navs {
-        .nav-#{$nav} {
-            color: $size !important;
-            
-        }
-    }
-}
 
 // main
 
@@ -82,21 +54,3 @@ main {
 
 }
 
-.footer {
-    // clase que utilizo para extends
-    .a-footer {
-        font-size: 15px;
-        text-decoration: underline;
-        font-weight: 600;
-        color: $azulOscuro !important;
-    }
-    li {
-        a {
-        @extend .a-footer;
-        
-        } 
-        & :hover {
-        font-size: 20px;
-        }
-    }
-}

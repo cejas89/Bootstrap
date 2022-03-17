@@ -1,0 +1,25 @@
+.footer {
+        background-color: blue;
+        
+
+    // clase que utilizo para extends
+    .a-footer {
+        font-size: 15px;
+        text-decoration: underline;
+        font-weight: 600;
+        color: $blancoFondo !important;
+    }
+    li {
+        a {
+        @extend .a-footer;
+        
+        } 
+        & :hover {
+        font-size: 20px;
+        }
+    }
+
+    .copyright {
+        color: $blancoFondo !important;
+    }
+}
