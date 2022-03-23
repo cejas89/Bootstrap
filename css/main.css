@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
 .contacto-tittle {
   text-align: center;
   font-size: 40px;
@@ -67,6 +73,9 @@ header .navbar-nav {
 
 header .navbar-logo {
   border-radius: 50%; }
+
+header .nav-container {
+  background-color: #00008B !important; }
 
 header .navs :hover, header li :hover {
   font-weight: 700; }
@@ -194,7 +203,17 @@ hr {
 
 body {
   background-color: #fff;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: "Roboto", sans-serif; }
+  body h1 {
+    font-size: 50px; }
+  body h2 {
+    font-size: 50px; }
+  body h3 {
+    font-size: 40px; }
+  body p {
+    font-size: 15px; }
+  body a {
+    font-size: 20px; }
 
 main .h5 {
   font-size: 35px;
