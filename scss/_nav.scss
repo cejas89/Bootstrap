@@ -2,11 +2,27 @@
 @import "_colors";
 
 header {
+    .navbar {
+        width: 100%;
+        background: $gradienteAzul;
+        color: #fff;
+        height: 20vh;
+    }
+
+    .navbar-nav {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .navbar-logo {
+        border-radius: 50%;
+    }
+
 
     .navs {
+        
         & :hover {
-        font-size: 20px;
-        text-decoration: underline;
+        font-weight: 700;
         }
     }
 
@@ -19,10 +35,10 @@ header {
     
     
      $navs: ( // aqui creo el maps
-        destination: tomato,
-        about: orange,
-        faqs: red,
-        contact: rgb(168, 5, 5),
+        destination: $blancoEtiquetas,
+        about: $blancoEtiquetas,
+        faqs: $blancoEtiquetas,
+        contact: $blancoEtiquetas,
     );
     
     @each $nav, $size in $navs {

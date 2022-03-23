@@ -1,6 +1,11 @@
 @import "_colors";
 
 .about-aside {
+
+    border: 1px solid lightgray;
+    height: 100%;
+    margin: 20px;
+
     h1 {
         text-align: center;
         color: $azulOscuro;
