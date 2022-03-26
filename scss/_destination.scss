@@ -13,3 +13,27 @@
 .card {
     transition: 2s all;
 }
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 40px;
+    color: green;
+
+}
+
+.card-date {
+    font-size: 35px;
+}
+
+.card-price {
+    font-size: 30px;
+}
+
+.card-other {
+    font-size: 20px;
+}
+
+

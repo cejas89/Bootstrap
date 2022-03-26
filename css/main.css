@@ -28,6 +28,22 @@
 .card {
   transition: 2s all; }
 
+.card-body {
+  text-align: center; }
+
+.card-body h5 {
+  font-size: 40px;
+  color: green; }
+
+.card-date {
+  font-size: 35px; }
+
+.card-price {
+  font-size: 30px; }
+
+.card-other {
+  font-size: 20px; }
+
 .about-aside {
   border: 1px solid lightgray;
   height: 100%;
@@ -50,7 +66,15 @@
   margin: 10px; }
 
 .faq-container {
-  background-color: #f6f6f6; }
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.accordion-item {
+  margin: 30px; }
 
 .social {
   position: fixed;
@@ -63,7 +87,12 @@
 
 header .navbar {
   width: 100%;
-  background: linear-gradient(to right, #00093c, #2b0b00);
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   height: 20vh; }
 
@@ -73,9 +102,6 @@ header .navbar-nav {
 
 header .navbar-logo {
   border-radius: 50%; }
-
-header .nav-container {
-  background-color: #00008B !important; }
 
 header .navs :hover, header li :hover {
   font-weight: 700; }
@@ -95,7 +121,12 @@ header .nav-contact {
 footer {
   display: block;
   width: 100%;
-  background: linear-gradient(to right, #00093c, #2b0b00);
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff; }
 
 .footer-bloque-1 {
@@ -202,7 +233,12 @@ hr {
     font-size: 20px; }
 
 body {
-  background-color: #fff;
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Roboto", sans-serif; }
   body h1 {
     font-size: 50px; }
@@ -221,7 +257,12 @@ main .h5 {
   font-weight: 600; }
 
 main .paquetes {
-  background-color: #f6f6f6; }
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   main .paquetes h1 {
     text-align: center;
     margin-top: 20px; }
@@ -229,3 +270,13 @@ main .paquetes {
     font-weight: bold; }
   main .paquetes .card-title {
     font-size: 30px; }
+
+main .container-bloque {
+  height: 20vh;
+  width: 100%;
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
