@@ -1,8 +1,8 @@
 
-# GIGI GYM
+# TRAVEL DESTINATION
 
--   Gigi Gym es una página íntegramente dedicada al deporte, salud y la actividad física en general. 
--Buscamos ser motivadores de una vida saludable y activa y a la vez divertida y placentera
+- Travel Destination, es una pagina que esta destinada a los viajes,  y destinos placenteros.
+- Nos ocupamos de tus necesidades, nos comentas y nosotros solucionamos tus problemas
 
 
 ----------
