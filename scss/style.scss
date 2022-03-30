@@ -41,6 +41,7 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
 
     h1 {
         font-size: $h1-size;
+        text-align: center;
     }
 
     h2 {
@@ -108,5 +109,34 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
 
 }
 
+.hr-index {
+    height: 5px;
+    width: 90%;
+    color: red;
 }
+
+.container-paquetes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-vuelo {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.card-border {
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+.img-border {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 0;
+}
+}
+
 

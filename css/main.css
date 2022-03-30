@@ -252,7 +252,8 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Roboto", sans-serif; }
   body h1 {
-    font-size: 50px; }
+    font-size: 50px;
+    text-align: center; }
   body h2 {
     font-size: 50px; }
   body h3 {
@@ -291,3 +292,26 @@ main .container-bloque {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f2fcfe, #1c92d2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+main .hr-index {
+  height: 5px;
+  width: 90%;
+  color: red; }
+
+main .container-paquetes {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+main .card-vuelo {
+  border: 1px solid black;
+  border-radius: 25px; }
+
+main .card-border {
+  border: 1px solid black;
+  border-radius: 25px; }
+
+main .img-border {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 0; }
