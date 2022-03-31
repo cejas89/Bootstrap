@@ -107,6 +107,9 @@ header .navbar {
   color: #fff;
   height: 20vh; }
 
+header .img-logo {
+  border-radius: 60px; }
+
 header .navbar-nav {
   justify-content: space-evenly;
   width: 100%; }
