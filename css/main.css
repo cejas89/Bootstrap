@@ -56,7 +56,6 @@
   font-size: 20px; }
 
 .about-aside {
-  border: 1px solid lightgray;
   height: 100%;
   margin: 20px; }
   .about-aside h1 {
@@ -66,11 +65,18 @@
 .about-us {
   background-color: #f6f6f6;
   line-height: 30px;
-  font-size: 20px; }
+  font-size: 20px;
+  height: 100%; }
 
 .card-about {
   background-color: #f6f6f6;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 25px; }
+
+.img-about {
+  border: 1px solid black;
+  border-radius: 25px; }
 
 .faq-tittle {
   text-align: center;
