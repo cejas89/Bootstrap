@@ -23,6 +23,10 @@
         font-size: $h3-size;
     }
 
+    h3 {
+        font-size: $h5-size;
+    }
+
     p {
         font-size: $p-size;
     }
@@ -33,10 +37,10 @@
 }
 
 body {
-    background: #1c92d2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
+    /*background: #1c92d2; 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); */
     font-family: $font-2;
 
     h1 {
@@ -80,9 +84,10 @@ main {
 
     
 .paquetes {
-    background: #1c92d2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ECEFF1;
+    /*background: #1c92d2; 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); */
 
 
     h1 {
@@ -96,17 +101,23 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
         }
     }
     .card-title {
-        font-size: 30px;
+    //    font-size: 30px;
     }
+
+
 }
 
 .container-bloque {
     height: 20vh;
     width: 100%;
-    background: #1c92d2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: #ECEFF1
+    /*background: #1c92d2;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    */
+}
+.btn-primary {
+    width: 80%;
 }
 
 .hr-index {
@@ -121,13 +132,17 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
     align-items: center;
 }
 
+.card {
+    border: none;
+}
+
 .card-vuelo {
-    border: 1px solid black;
+//    border: 1px solid black;
     border-radius: 25px;
 }
 
 .card-border {
-    border: 1px solid black;
+   // border: 1px solid black;
     border-radius: 25px;
 
 }

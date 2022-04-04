@@ -43,7 +43,6 @@
   text-align: center; }
 
 .card-body h5 {
-  font-size: 40px;
   color: green; }
 
 .card-date {
@@ -247,18 +246,17 @@ hr {
     font-size: 50px; }
   * h3 {
     font-size: 40px; }
+  * h3 {
+    font-size: 16px; }
   * p {
     font-size: 15px; }
   * a {
     font-size: 20px; }
 
 body {
-  background: #1c92d2;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: #1c92d2; 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); */
   font-family: "Roboto", sans-serif; }
   body h1 {
     font-size: 50px;
@@ -278,29 +276,23 @@ main .h5 {
   font-weight: 600; }
 
 main .paquetes {
-  background: #1c92d2;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background: #ECEFF1;
+  /*background: #1c92d2; 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); */ }
   main .paquetes h1 {
     text-align: center;
     margin-top: 20px; }
   main .paquetes .card:hover {
     font-weight: bold; }
-  main .paquetes .card-title {
-    font-size: 30px; }
 
 main .container-bloque {
   height: 20vh;
   width: 100%;
-  background: #1c92d2;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background-color: #ECEFF1; }
+
+main .btn-primary {
+  width: 80%; }
 
 main .hr-index {
   height: 5px;
@@ -312,12 +304,13 @@ main .container-paquetes {
   flex-direction: row;
   align-items: center; }
 
+main .card {
+  border: none; }
+
 main .card-vuelo {
-  border: 1px solid black;
   border-radius: 25px; }
 
 main .card-border {
-  border: 1px solid black;
   border-radius: 25px; }
 
 main .img-border {
