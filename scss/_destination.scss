@@ -1,6 +1,12 @@
+.card-container {
+    margin: auto;
+}
+
 .card {
     border: 1px solid lightgray !important;
+    border-radius: 10px;
 }
+
 
 .card-body {
     border-bottom: 1px solid lightgray;
