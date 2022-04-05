@@ -1,39 +1,39 @@
-.destinos-tittle {
-    text-align: center;
-}
-
-.card-group {
-    background-color: $blancoEtiquetas;
-}
-
-.card-group .card {
-    margin: 10px;
-}
-
 .card {
-    transition: 2s all;
+    border: 1px solid lightgray !important;
 }
 
 .card-body {
-    text-align: center;
-}
+    border-bottom: 1px solid lightgray;
 
-.card-body h5 {
+    h5 {
+        border-bottom: 1px solid lightgray;
+    }
     
-    color: green;
-
+    p {
+        font-size: 15px;
+    }
 }
 
-.card-date {
-    font-size: 35px;
+.card-bottom {
+    justify-content: space-between;
+
+    p {
+        width: 30%;
+        color: blue !important;
+        margin: 0;
+    }
+
+    button {
+        width: 20% !important;
+        margin-right: 5px;
+    }
 }
 
-.card-price {
-    font-size: 30px;
+.card-footer {
+    background-color: red;
+    margin: 0;
+
+    p {
+        margin: 0;
+    }
 }
-
-.card-other {
-    font-size: 20px;
-}
-
-

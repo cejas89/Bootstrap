@@ -13,22 +13,27 @@
 
     h1 {
         font-size: $h1-size;
+        font-family: $font-3;
     }
 
     h2 {
         font-size: $h2-size;
+        font-family: $font-3;
     }
 
     h3 {
         font-size: $h3-size;
+        font-family: $font-3;
     }
 
     h3 {
         font-size: $h5-size;
+        font-family: $font-3;
     }
 
     p {
         font-size: $p-size;
+        font-family: $font-3;
     }
 
     a {
@@ -101,7 +106,7 @@ main {
         }
     }
     .card-title {
-    //    font-size: 30px;
+       font-size: 30px;
     }
 
 

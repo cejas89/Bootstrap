@@ -27,32 +27,31 @@
 .form-btn {
   width: 100%; }
 
-.destinos-tittle {
-  text-align: center; }
-
-.card-group {
-  background-color: #f6f6f6; }
-
-.card-group .card {
-  margin: 10px; }
-
 .card {
-  transition: 2s all; }
+  border: 1px solid lightgray !important; }
 
 .card-body {
-  text-align: center; }
+  border-bottom: 1px solid lightgray; }
+  .card-body h5 {
+    border-bottom: 1px solid lightgray; }
+  .card-body p {
+    font-size: 15px; }
 
-.card-body h5 {
-  color: green; }
+.card-bottom {
+  justify-content: space-between; }
+  .card-bottom p {
+    width: 30%;
+    color: blue !important;
+    margin: 0; }
+  .card-bottom button {
+    width: 20% !important;
+    margin-right: 5px; }
 
-.card-date {
-  font-size: 35px; }
-
-.card-price {
-  font-size: 30px; }
-
-.card-other {
-  font-size: 20px; }
+.card-footer {
+  background-color: red;
+  margin: 0; }
+  .card-footer p {
+    margin: 0; }
 
 .about-aside {
   height: 100%;
@@ -76,6 +75,14 @@
 .img-about {
   border: 1px solid black;
   border-radius: 25px; }
+
+.about-1 {
+  font-size: 30px;
+  font-weight: 100; }
+
+.about-p {
+  font-size: 20px;
+  line-height: 1.5rem; }
 
 .faq-tittle {
   text-align: center;
@@ -241,15 +248,20 @@ hr {
   margin: 0;
   padding: 0; }
   * h1 {
-    font-size: 50px; }
+    font-size: 50px;
+    font-family: "Poppins", sans-serif; }
   * h2 {
-    font-size: 50px; }
+    font-size: 50px;
+    font-family: "Poppins", sans-serif; }
   * h3 {
-    font-size: 40px; }
+    font-size: 40px;
+    font-family: "Poppins", sans-serif; }
   * h3 {
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: "Poppins", sans-serif; }
   * p {
-    font-size: 15px; }
+    font-size: 15px;
+    font-family: "Poppins", sans-serif; }
   * a {
     font-size: 20px; }
 
@@ -285,6 +297,8 @@ main .paquetes {
     margin-top: 20px; }
   main .paquetes .card:hover {
     font-weight: bold; }
+  main .paquetes .card-title {
+    font-size: 30px; }
 
 main .container-bloque {
   height: 20vh;
