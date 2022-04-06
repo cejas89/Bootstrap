@@ -1,16 +1,33 @@
+@import "_colors";
+
+
 .faq-tittle {
     text-align: center;
     margin: 10px;
 }
 
-
-.faq-container {
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
 .accordion-item {
     margin: 30px;
+}
+
+.accordion-body {
+    background-color: lightgrey !important;
+}
+
+.accordion-button {
+    font-family: $font-3;
+    font-weight: 200;
+    font-size: 25px;
+    color: #fff;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
 }
