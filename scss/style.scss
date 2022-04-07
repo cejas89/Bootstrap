@@ -131,9 +131,12 @@ main {
 
     .btn-primary {
         width: 100%;
-        background: #000428;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #000428;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #004e92, #000428);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         border-radius: 10px;
         margin: auto;
     }
@@ -141,9 +144,12 @@ main {
     .hr-index {
         height: 5px;
         width: 90%;
-        background: #000428;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #000428;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #004e92, #000428);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .container-paquetes {
@@ -172,4 +178,53 @@ main {
         border-radius: 25px;
         padding: 0;
     }
+}
+
+// media query celu
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        h1 {
+            font-size: 30px !important;
+        }
+    }
+
+    .index-carousel {
+        width: 100%;
+    }
+
+    .index-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .card-border {
+        margin: auto;
+    }
+}
+
+// media query tablet
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        h1 {
+            font-size: 30px !important;
+        }
+    }
+
+    .index-carousel {
+        width: 100%;
+    }
+
+    .index-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .card-border {
+        margin: auto;
+    }
+
+
 }

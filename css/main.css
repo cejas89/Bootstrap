@@ -270,31 +270,14 @@ hr {
 .footer-bloque-2 {
   text-align: center; }
 
-/*.footer {
-        background-color: blue;
-        
+@media only screen and (max-width: 767px) {
+  .footer-container-3 ul {
+    padding: 0; } }
 
-    // clase que utilizo para extends
-    .a-footer {
-        font-size: 15px;
-        text-decoration: underline;
-        font-weight: 600;
-        color: $blancoFondo !important;
-    }
-    li {
-        a {
-        @extend .a-footer;
-        
-        } 
-        & :hover {
-        font-size: 20px;
-        }
-    }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-container-3 ul {
+    padding: 0; } }
 
-    .copyright {
-        color: $blancoFondo !important;
-    }
-}*/
 * {
   margin: 0;
   padding: 0; }
@@ -397,3 +380,25 @@ main .img-border {
   border: 2px solid white;
   border-radius: 25px;
   padding: 0; }
+
+@media only screen and (max-width: 767px) {
+  body h1 {
+    font-size: 30px !important; }
+  .index-carousel {
+    width: 100%; }
+  .index-form {
+    margin-top: 10px;
+    width: 100%; }
+  .card-border {
+    margin: auto; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body h1 {
+    font-size: 30px !important; }
+  .index-carousel {
+    width: 100%; }
+  .index-form {
+    margin-top: 10px;
+    width: 100%; }
+  .card-border {
+    margin: auto; } }
