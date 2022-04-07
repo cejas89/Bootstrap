@@ -1,12 +1,14 @@
-
 @import "_colors";
 
 header {
     .navbar {
         width: 100%;
-        background: #000428;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #000428;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #004e92, #000428);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: #fff;
         height: 20vh;
     }
@@ -27,9 +29,9 @@ header {
 
 
     .navs {
-        
+
         & :hover {
-        font-weight: 700;
+            font-weight: 700;
         }
     }
 
@@ -38,20 +40,42 @@ header {
     li {
         @extend .navs
     }
-    
-    
-    
-     $navs: ( // aqui creo el maps
+
+
+
+    $navs: ( // aqui creo el maps
         destination: $blancoEtiquetas,
         about: $blancoEtiquetas,
         faqs: $blancoEtiquetas,
         contact: $blancoEtiquetas,
     );
-    
-    @each $nav, $size in $navs {
+
+    @each $nav,
+    $size in $navs {
         .nav-#{$nav} {
             color: $size !important;
-            
+
         }
     }
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        .navbar {
+            height: auto;
+        }
+
+    }
+}
+
+// media query tablet
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        .navbar {
+            height: auto;
+        }
+
+    }
+
 }
