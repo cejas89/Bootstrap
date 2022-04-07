@@ -31,6 +31,7 @@
 ----------
 ## Google Fonts
 
+Se importo, mediante el linkeo de pagina
 
 ## Git y GitHub
 
