@@ -53,13 +53,35 @@
 @media only screen and (max-width: 767px) {
 
     section {
-        p {
-            text-align: center;
-            font-size: 20px !important;
+
+        .container {
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+
+
+        }
+
+
+        .mision {
+            p {
+                text-align: center;
+                font-size: 20px !important;
+                line-height: 30px;
+            }
+
         }
 
         img {
             height: 100%;
+        }
+
+        .col-4 {
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
         }
 
     }
@@ -70,13 +92,34 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     section {
-        p {
-            text-align: center;
-            font-size: 20px !important;
+
+        .container {
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+
+
+        }
+
+        .mision {
+            p {
+                text-align: center;
+                font-size: 20px !important;
+                line-height: 30px;
+            }
+
         }
 
         img {
             height: 100%;
+        }
+
+        .col-4 {
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
         }
 
     }
