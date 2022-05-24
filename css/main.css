@@ -80,6 +80,12 @@
     font-style: italic;
     font-weight: 300; }
 
+.containerOculto {
+  display: none; }
+
+.containerVista {
+  display: block; }
+
 .card-footer {
   background: #000428;
   /* fallback for old browsers */

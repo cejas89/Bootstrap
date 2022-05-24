@@ -67,6 +67,14 @@
     }
 }
 
+.containerOculto {
+    display: none;
+}
+
+.containerVista {
+    display: block;
+}
+
 .card-footer {
     background: #000428;
     /* fallback for old browsers */
