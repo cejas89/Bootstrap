@@ -1,3 +1,5 @@
+
+
 window.onload = VerMas;
 
 // Traigo elementos del DOM
@@ -15,7 +17,7 @@ let containerOculto = document.getElementById('containerOculto');
 function VerMas() {
     button.addEventListener("click", cambiarClase);
     iterador();
-    valorDelPaquete();
+   
     console.log("ver mas");
 }
 
@@ -41,24 +43,37 @@ function iterador() {
     let contador = 0;
 
     btnAgregar.addEventListener("click", () => {
+        valorDelPaquete();
         contador++;
         let iterador = document.getElementById('iterador')
-        iterador.textContent = contador;
-        console.log("prueba")
+        if (contador <= 0) {
+            iterador.textContent = "";
+            contador = 0;
+        } else {
+            iterador.textContent = contador;
+
+        }
+        console.log(contador)
 
     });
+
 
     btnEliminar.addEventListener("click", () => {
         contador--;
         let iterador = document.getElementById('iterador')
-        iterador.textContent = contador;
+        if (contador <= 0) {
+            iterador.textContent = "";
+        } else {
+            iterador.textContent = contador;
+
+        }
+        console.log(contador);
+        
     })
-
-
-
 }
 
-/*function valorDelPaquete() {
+
+function valorDelPaquete() {
     let precioAdultos = parseInt(document.getElementById('precioAdultos').textContent);
     let precioMenores = parseInt(document.getElementById('precioMenores').textContent);
     let precioTotalAdultos = document.getElementById('precioTotalAdultos');
@@ -88,4 +103,4 @@ function iterador() {
         }
 
     })
-}*/
+}

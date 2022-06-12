@@ -8,7 +8,7 @@ let btnBuscar = document.getElementById('btnBuscar');
 
 
 // buscador de paquetes 
-const buscadorPaquetes = (id) => {  
+const buscadorPaquetes = () => {  
     let infoDestino = paisDestino.value;
     
 }
