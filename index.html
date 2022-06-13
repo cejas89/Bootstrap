@@ -105,18 +105,10 @@
           <div class="col-4 index-form">
 
             <form class="row g-3">
-              <div class="col-4">
-                <button class="btn btn-primary w-100">Paquetes</button>
-              </div>
-              <div class="col-4">
-                <button class="btn btn-primary w-100">Circuitos</button>
-              </div>
-              <div class="col-4">
-                <button class="btn btn-primary w-100">Cruceros</button>
-              </div>
+
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Pais de destino</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="email" class="form-control" id="inputEmail4" id="inputPais">
               </div>
               <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Ciudad de destino</label>
@@ -142,10 +134,10 @@
               </div>
               <hr class="hr-index">
               <div class="col-6">
-                <button type="submit" class="btn btn-primary w-100">Resetear</button>
+                <button type="submit" class="btn btn-primary w-100" >Resetear</button>
               </div>
               <div class="col-6">
-                <button type="submit" class="btn btn-primary w-100">Buscar</button>
+                <button type="submit" class="btn btn-primary w-100" id="btnBuscar">Buscar</button>
               </div>
 
           </div>
@@ -155,6 +147,15 @@
       </div>
       </div>
     </section>
+    <div class="col-4">
+      <button class="btn btn-primary w-100" id="paquetes">Paquetes</button>
+    </div>
+    <div class="col-4">
+      <button class="btn btn-primary w-100" id="vuelos">Vuelos</button>
+    </div>
+    <div class="col-4">
+      <button class="btn btn-primary w-100" id="hoteles">Hoteles</button>
+    </div>
 
 
     <section>
@@ -165,7 +166,7 @@
 
       <!-- Seccion de Vuelos-->
 
-      <section class="vuelos-oferta">
+      <section class="vuelos-oferta" id="seccionVuelos">
         <h1>Vuelos En oferta</h1>
         <div class="container">
           <div class="row">
@@ -225,11 +226,12 @@
         </div>
       </section>
 
-      <hr class="hr-index">
+      
 
       <!-- Seccion de paquetes-->
 
-      <section class="paquetes-ofertas">
+      <section class="paquetes-ofertas" id="seccionPaquetes">
+        <hr class="hr-index">
         <h1>Paquetes En oferta</h1>
         <div class="container">
           <div class="row">
@@ -284,11 +286,12 @@
         </div>
       </section>
 
-      <hr class="hr-index">
+      
 
       <!-- Seccion de Hoteles-->
 
-      <section class="hoteles-oferta">
+      <section class="hoteles-oferta" id="seccionHoteles">
+        <hr class="hr-index">
         <h1>Hoteles En oferta</h1>
         <div class="container">
           <div class="row">
@@ -481,7 +484,6 @@
 
   <script src="/script/app.js"></script>
   <script src="/script/destination.js"></script>
-  <script src="/script/formulario.js"></script>
   <script src="/script/liberia.js"></script>
 
 

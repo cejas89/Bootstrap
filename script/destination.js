@@ -1,8 +1,8 @@
-window.onload = VerMas;
+//window.onload = VerMas;
 
 // Traigo elementos del DOM
-let buttonVerMas = document.getElementById('btnVerMas');
-let btnVerMenos = document.getElementById('btnVerMenos');
+let buttonVerMas = document.querySelectorAll('.btnVerMas');
+let btnVerMenos = document.querySelectorAll('.btnVerMenos');
 let btnAgregar = document.getElementById('btnAgregar');
 let btnEliminar = document.getElementById('btnEliminar');
 let containerOculto = document.getElementById('containerOculto');
@@ -17,31 +17,37 @@ let containerPrice = document.getElementById('container-price')
 
 
 function VerMas() {
-    btnVerMenos.style.visibility = "hidden"
-    buttonVerMas.addEventListener("click", cambiarClase);
-    iterador();  
-    console.log("ver mas");
-    console.log(valorAdultos);
+
 }
-
-
-    btnVerMenos.addEventListener("click", () => {    
-    btnVerMenos.style.visibility = "hidden";
-    containerOculto.classList.toggle('containerVista');
-    buttonVerMas.style.visibility = "visible";
-    containerPrice.style.visibility = "visible";
-    console.log("estado");
-})
 
 
 const cambiarClase = (e) => {
-    btnVerMenos.style.visibility = "visible";
-    buttonVerMas.style.visibility = "hidden";
+
+}
+
+
+buttonVerMas.forEach(boton => {
+    boton.addEventListener("click", () => {
+    boton.style.display = "none";
     containerPrice.style.visibility = "hidden";
-    // e.preventDefault();
     containerOculto.classList.toggle('containerVista');
     console.log("ver menos");
-}
+    })
+    
+})
+
+btnVerMenos.forEach(boton => {
+    boton.addEventListener("click", () => {
+    boton.innerText = "Ver Mas";
+        iterador();  
+        containerOculto.classList.toggle('containerVista');
+        buttonVerMas.style.visibility = "visible";
+        containerPrice.style.visibility = "visible";
+        console.log("ver mas");
+        console.log(valorAdultos);
+    })
+    
+})
 
 
 

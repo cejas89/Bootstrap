@@ -114,7 +114,7 @@
 
                                         <div class="agregar">
                                             <label for="">Cantidad Pasajero</label>
-                                            <select name="seleccionador" id="selectAdultos">
+                                            <select name="seleccionador" class="selectAdultos" id="selectAdultos">
                                                 <option value="0">Adultos</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
@@ -123,7 +123,7 @@
                                                 <option value="5">5</option>
                                                 <option value="6">6</option>
                                             </select>
-                                            <select name="menores" id="selectMenores">
+                                            <select name="menores" class="selectMenores" id="selectMenores">
                                                 <option value="0">Menores</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
@@ -132,21 +132,21 @@
                                                 <option value="5">5</option>
                                                 <option value="6">6</option>
                                             </select>
-                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
-                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <button class="w-30 btn-primary btnAgregar" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary btnEliminar" id="btnEliminar">Eliminar</button>
                                             <p id="iterador"></p>
-                                            <p id="precioTotalAdultos"></p>
-                                            <p id="precioTotalMenores"></p>
+                                            <p class="precioTotalAdultos" id="precioTotalAdultos"></p>
+                                            <p class="precioTotalMenores" id="precioTotalMenores"></p>
                                         </div>
                                     </div>
                                     <div class="d-flex mt-2 card-bottom">
                                         <div class="container-price w-100" id="container-price">
                                             <span>Desde</span>
-                                            <p id="precioAdultos">7273<span>USD</span></p>
-                                            <p id="precioMenores">2273<span>USD</span></p>
+                                            <p class= "precioAdultos" id="precioAdultos">7273<span>USD</span></p>
+                                            <p class="precioMenores" id="precioMenores">2273<span>USD</span></p>
                                         </div>
-                                        <button class="w-60 btn-primary" id="btnVerMas">Ver Mas</button>
-                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary btnVerMenos" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
@@ -182,12 +182,47 @@
                                                 // Atenas / Buenos Aires. **Los vuelos están s...</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 card-bottom">
-                                        <div class="container-price w-100">
-                                            <span>Desde</span>
-                                            <p>USD 7.273</p>
+                                    <div class="containerOculto" id="containerOculto">
+                                        <p class="card-text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto officia
+                                            voluptatibus facere nesciunt voluptas. Distinctio laboriosam doloribus
+                                            voluptates voluptate modi vero consequatur iste, quia exercitationem!
+                                            Perferendis minus neque sunt ipsam!</p>
+
+                                        <div class="agregar">
+                                            <label for="">Cantidad Pasajero</label>
+                                            <select name="seleccionador" id="selectAdultos">
+                                                <option value="0">Adultos</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <select name="menores" id="selectMenores">
+                                                <option value="0">Menores</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <p id="iterador"></p>
+                                            <p id="precioTotalAdultos"></p>
+                                            <p id="precioTotalMenores"></p>
                                         </div>
-                                        <button class="w-60 btn-primary">Ver Mas...</button>
+                                    </div>
+                                    <div class="d-flex mt-2 card-bottom">
+                                        <div class="container-price w-100" id="container-price">
+                                            <span>Desde</span>
+                                            <p id="precioAdultos">7273<span>USD</span></p>
+                                            <p id="precioMenores">2273<span>USD</span></p>
+                                        </div>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
@@ -223,12 +258,47 @@
                                                 // Atenas / Buenos Aires. **Los vuelos están s...</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 card-bottom">
-                                        <div class="container-price w-100">
-                                            <span>Desde</span>
-                                            <p>USD 7.273</p>
+                                    <div class="containerOculto" id="containerOculto">
+                                        <p class="card-text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto officia
+                                            voluptatibus facere nesciunt voluptas. Distinctio laboriosam doloribus
+                                            voluptates voluptate modi vero consequatur iste, quia exercitationem!
+                                            Perferendis minus neque sunt ipsam!</p>
+
+                                        <div class="agregar">
+                                            <label for="">Cantidad Pasajero</label>
+                                            <select name="seleccionador" id="selectAdultos">
+                                                <option value="0">Adultos</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <select name="menores" id="selectMenores">
+                                                <option value="0">Menores</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <p id="iterador"></p>
+                                            <p id="precioTotalAdultos"></p>
+                                            <p id="precioTotalMenores"></p>
                                         </div>
-                                        <button class="w-60 btn-primary">Ver Mas...</button>
+                                    </div>
+                                    <div class="d-flex mt-2 card-bottom">
+                                        <div class="container-price w-100" id="container-price">
+                                            <span>Desde</span>
+                                            <p id="precioAdultos">7273<span>USD</span></p>
+                                            <p id="precioMenores">2273<span>USD</span></p>
+                                        </div>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
@@ -264,12 +334,47 @@
                                                 // Atenas / Buenos Aires. **Los vuelos están s...</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 card-bottom">
-                                        <div class="container-price w-100">
-                                            <span>Desde</span>
-                                            <p>USD 7.273</p>
+                                    <div class="containerOculto" id="containerOculto">
+                                        <p class="card-text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto officia
+                                            voluptatibus facere nesciunt voluptas. Distinctio laboriosam doloribus
+                                            voluptates voluptate modi vero consequatur iste, quia exercitationem!
+                                            Perferendis minus neque sunt ipsam!</p>
+
+                                        <div class="agregar">
+                                            <label for="">Cantidad Pasajero</label>
+                                            <select name="seleccionador" id="selectAdultos">
+                                                <option value="0">Adultos</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <select name="menores" id="selectMenores">
+                                                <option value="0">Menores</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <p id="iterador"></p>
+                                            <p id="precioTotalAdultos"></p>
+                                            <p id="precioTotalMenores"></p>
                                         </div>
-                                        <button class="w-60 btn-primary">Ver Mas...</button>
+                                    </div>
+                                    <div class="d-flex mt-2 card-bottom">
+                                        <div class="container-price w-100" id="container-price">
+                                            <span>Desde</span>
+                                            <p id="precioAdultos">7273<span>USD</span></p>
+                                            <p id="precioMenores">2273<span>USD</span></p>
+                                        </div>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
@@ -305,12 +410,47 @@
                                                 // Atenas / Buenos Aires. **Los vuelos están s...</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 card-bottom">
-                                        <div class="container-price w-100">
-                                            <span>Desde</span>
-                                            <p>USD 7.273</p>
+                                    <div class="containerOculto" id="containerOculto">
+                                        <p class="card-text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto officia
+                                            voluptatibus facere nesciunt voluptas. Distinctio laboriosam doloribus
+                                            voluptates voluptate modi vero consequatur iste, quia exercitationem!
+                                            Perferendis minus neque sunt ipsam!</p>
+
+                                        <div class="agregar">
+                                            <label for="">Cantidad Pasajero</label>
+                                            <select name="seleccionador" id="selectAdultos">
+                                                <option value="0">Adultos</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <select name="menores" id="selectMenores">
+                                                <option value="0">Menores</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <p id="iterador"></p>
+                                            <p id="precioTotalAdultos"></p>
+                                            <p id="precioTotalMenores"></p>
                                         </div>
-                                        <button class="w-60 btn-primary">Ver Mas...</button>
+                                    </div>
+                                    <div class="d-flex mt-2 card-bottom">
+                                        <div class="container-price w-100" id="container-price">
+                                            <span>Desde</span>
+                                            <p id="precioAdultos">7273<span>USD</span></p>
+                                            <p id="precioMenores">2273<span>USD</span></p>
+                                        </div>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
@@ -346,12 +486,47 @@
                                                 // Atenas / Buenos Aires. **Los vuelos están s...</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 card-bottom">
-                                        <div class="container-price w-100">
-                                            <span>Desde</span>
-                                            <p>USD 7.273</p>
+                                    <div class="containerOculto" id="containerOculto">
+                                        <p class="card-text mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto officia
+                                            voluptatibus facere nesciunt voluptas. Distinctio laboriosam doloribus
+                                            voluptates voluptate modi vero consequatur iste, quia exercitationem!
+                                            Perferendis minus neque sunt ipsam!</p>
+
+                                        <div class="agregar">
+                                            <label for="">Cantidad Pasajero</label>
+                                            <select name="seleccionador" id="selectAdultos">
+                                                <option value="0">Adultos</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <select name="menores" id="selectMenores">
+                                                <option value="0">Menores</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                            <button class="w-30 btn-primary" id="btnAgregar">Agregar</button>
+                                            <button class="w-30 btn-primary" id="btnEliminar">Eliminar</button>
+                                            <p id="iterador"></p>
+                                            <p id="precioTotalAdultos"></p>
+                                            <p id="precioTotalMenores"></p>
                                         </div>
-                                        <button class="w-60 btn-primary">Ver Mas...</button>
+                                    </div>
+                                    <div class="d-flex mt-2 card-bottom">
+                                        <div class="container-price w-100" id="container-price">
+                                            <span>Desde</span>
+                                            <p id="precioAdultos">7273<span>USD</span></p>
+                                            <p id="precioMenores">2273<span>USD</span></p>
+                                        </div>
+                                        <button class="w-60 btn-primary btnVerMas" id="btnVerMas">Ver Mas</button>
+                                        <button class="w-60 btn-primary" id="btnVerMenos">Ver Menos</button>
                                     </div>
                                     <div class="col-12 mt-2 card-footer">
                                         <p>Itinerario: Heraklion > Bodrum > Efeso</p>
