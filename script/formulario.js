@@ -1,4 +1,5 @@
 window.onload = iniciar;
+import swal from 'sweetalert';
 
 // Declaracion de variables, traidas del DOM
 let inputNombre = document.getElementById('form-nombre');
@@ -54,6 +55,6 @@ const contacto = () => {
     guardarPaqueteStorage(Math.random(), JSON.stringify(datosForm));
 
     //mensaje de confirmacion
-    alert("Su mensaje ha sido enviado con exito")
+    swal("Hello world!");
 
 }
