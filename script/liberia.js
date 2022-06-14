@@ -1,5 +1,5 @@
 // Libreria de funciones Generales
-const urlApi = './script/api.json'
+const urlApi = 'script/api.json'
 
 
 const guardarPaqueteStorage = (clave, valor) => {

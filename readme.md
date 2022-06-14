@@ -40,3 +40,10 @@ Se importo, mediante el linkeo de pagina
 
 ----------
 
+## Javascript
+
+- Se utilizo una api local, para traer datos, y insertarlos en el DOM, mediante un buscador, el cual unicamente busca por PAIS DE DESTINO.
+- Con opciones para visualisar en el home, de PAQUETES disponibles, VUELOS disponibles, y HOTELES disponibles.
+- En la seccion Destinos, se intento generar un "Paquete" el cual se podria seleccionar por  cantidad y tipo de pasajeros, obteniendo asi el precio total del paquete.
+- Por ultimo, tenemos la seccion de Contacto, el cual completando los datos, nos genera un mensaje de alerta el cual confirma la carga de los datos, y a su ves carga los datos en el LocalStorage para poder asi manipularlos.
+
