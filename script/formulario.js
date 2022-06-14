@@ -53,6 +53,6 @@ const contacto = () => {
     guardarPaqueteStorage(Math.random(), JSON.stringify(datosForm));
 
     //mensaje de confirmacion
-    swal("Hello world!");
+    alert("Su mensaje ha sido enviado")
 
 }
