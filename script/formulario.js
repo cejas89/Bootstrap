@@ -1,5 +1,5 @@
 window.onload = iniciar;
-import swal from 'sweetalert';
+//import swal from 'sweetalert';
 
 // Declaracion de variables, traidas del DOM
 let inputNombre = document.getElementById('form-nombre');
@@ -31,8 +31,6 @@ class DatosFormuario {
         }*/
     }
 }
-
-
 
 function iniciar () {
     botonEnviar.addEventListener("click", contacto)

@@ -104,11 +104,11 @@
             </div>
           </div>
           <div class="col-4 index-form">
-
-            <form class="row g-3">
+            <section class="row g-3">
+            
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Pais de destino</label>
-                <input type="email" class="form-control" id="inputEmail4" id="inputPais">
+                <input type="text" class="form-control" id="inputPais" name="">
               </div>
               <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Ciudad de destino</label>
@@ -134,13 +134,13 @@
               </div>
               <hr class="hr-index">
               <div class="col-6">
-                <button type="submit" class="btn btn-primary w-100" >Resetear</button>
+                <button type="submit" class="btn btn-primary w-100" id="btnReset" >Resetear</button>
               </div>
               <div class="col-6">
                 <button type="submit" class="btn btn-primary w-100" id="btnBuscar">Buscar</button>
               </div>
           </div>
-          </form>
+          </section>
         </div>
       </div>
       </div>
@@ -350,7 +350,71 @@
         </div>
       </section>
 
-      <hr class="hr-index">
+      
+
+
+       <!-- Seccion de busqueda oculta-->
+
+       <section class="" id="seccionBusqueda" style="display: none;">
+        <hr class="hr-index">
+        <h1>Busqueda por fetch</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card card-border" style="width: 18rem;">
+                <img class="img-thumbnail img-border" src="images/paquetes/104.jpg" class="card-img-top w-100"
+                  alt="card9">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-border" style="width: 18rem;">
+                <img class="img-thumbnail img-border" src="images/paquetes/105.jpg" class="card-img-top w-100"
+                  alt="card10">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-border" style="width: 18rem;">
+                <img class="img-thumbnail img-border" src="images/paquetes/106.jpg" class="card-img-top w-100"
+                  alt="card11">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-border" style="width: 18rem;">
+                <img class="img-thumbnail img-border" src="images/paquetes/107.jpg" class="card-img-top w-100"
+                  alt="card12">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="mt-10" id="errorDestino" style="display: none; margin: 50px;">
+        <h1>No se encontro ningun destino.....</h1>
+      </section>
 
 
       <div class="container mb-2">

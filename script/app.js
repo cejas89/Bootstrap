@@ -1,9 +1,4 @@
-
 // DOM
-let paisDestino = document.getElementById('paisDestino');
-let nombreDestino = document.getElementById('nombreDestino');
-let btnBuscar = document.getElementById('btnBuscar');
-//let inputPais = document.getElementById('inputPais').value;
 let eventoPaquete = document.getElementById('paquetes');
 let eventoVuelo = document.getElementById('vuelos')
 let eventoHotel = document.getElementById('hoteles');
@@ -11,35 +6,15 @@ let seccionPaquetes = document.getElementById('seccionPaquetes');
 let seccionHoteles = document.getElementById('seccionHoteles');
 let seccionVuelos = document.getElementById('seccionVuelos');
 
+// DOM FORM
+let inputPais = document.getElementById('inputPais');
+let btnBuscar = document.getElementById('btnBuscar');
+let btnReset = document.getElementById('btnReset')
+let busquedaPaquetes = document.getElementById('seccionBusqueda');
+let errorDestino = document.getElementById('errorDestino');
 
 
-/*
-// funcion para buscar de paquetes 
-const obtenerPaquete = (inputPais) => {  
-    console.log(data);
-}
-
-// evento para buscar esa funcion
-
-btnBuscar.addEventListener("click", buscarPaquete())
-
-*/
-function cambiarVuelos () {
-    seccionPaquetes.classList.toggle = "containerOculto";
-    seccionHoteles.classList.toggle = "containerOculto";
-    seccionVuelos.classList.toggle = "vuelos-ofertas";
-}
-
-function cambiarPaquetes () {
-    seccionPaquetes.classList.toggle = "paquetes-ofertas";
-    seccionHoteles.classList.toggle = "containerOculto";
-    seccionVuelos.classList.toggle = "containerOculto";
-}
-
-function cambiarHoteles () {
-
-}
-
+// Eventos para seleccionar la informacion deseada en el dom
 eventoHotel.addEventListener("click", () => {
     seccionPaquetes.style.display = "none";
     seccionHoteles.style.display = "";
@@ -57,3 +32,43 @@ eventoVuelo.addEventListener("click", () => {
     seccionHoteles.style.display = "none";
     seccionVuelos.style.display = "";
 });
+
+
+btnReset.addEventListener("click", () => {
+    location.reload();
+})
+
+
+
+
+const buscar = () => {
+    btnBuscar.addEventListener("click", async () => {
+        const data = await buscarPaquete();
+        //console.log(data);
+        const divFetch = document.createElement('div')
+        divFetch.innerHTML = "";
+        //let containerFetch = document.getElementById('containerFetch');
+        //let divFetch = document.createElement('div')
+        //divFetch.innerHTML = "";
+        data.forEach((datos) => {
+        const titulos = datos.nombre;
+        if (inputPais.value === titulos) {
+            console.log(titulos);
+            seccionPaquetes.style.display = "none";
+            seccionHoteles.style.display = "none";
+            seccionVuelos.style.display = "none";
+            busquedaPaquetes.style.display = "";
+            errorDestino.style.display="none";
+        } else {
+            errorDestino.style.display="";
+            seccionPaquetes.style.display = "none";
+            seccionHoteles.style.display = "none";
+            seccionVuelos.style.display = "none";
+            busquedaPaquetes.style.display = "none";
+        }
+        })
+
+    })
+};
+
+buscar();

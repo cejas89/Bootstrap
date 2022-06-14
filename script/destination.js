@@ -15,17 +15,6 @@ let containerPrice = document.getElementById('container-price')
 
 
 
-
-function VerMas() {
-
-}
-
-
-const cambiarClase = (e) => {
-
-}
-
-
 buttonVerMas.forEach(boton => {
     boton.addEventListener("click", () => {
     boton.style.display = "none";
